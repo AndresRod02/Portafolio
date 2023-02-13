@@ -303,8 +303,11 @@
       AOS.init();
     </script>
     <script>
+      var welcomeScreen = document.getElementById("welcome");
+    
       setTimeout(function() {
-        document.getElementById("welcome").style.opacity = "0";
+        welcomeScreen.style.opacity = "0";
+        welcomeScreen.style.zIndex = "0";
       }, 4000);
     </script>
   </body>
