@@ -141,7 +141,7 @@ img {
     align-items: center;
     z-index: 101;
     opacity: 1;
-    transition: opacity 2.8s;
+    transition: opacity 3s;
 }
 /* ============ HEADER & NAVBAR ============= */
 .header {
