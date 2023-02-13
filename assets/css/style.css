@@ -93,6 +93,9 @@ img {
 }
 
 /* ============ REUSABLE CLASSES ============= */
+#welcome{
+  display: none;
+}
 .section{
   margin: 0 auto;
   width: 100%;
