@@ -300,14 +300,14 @@
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
-    </script>
-    <script>
-      var welcomeScreen = document.getElementById("welcome");
+      var welcome = document.getElementById("welcome");
+    
+      welcome.addEventListener("transitionend", function() {
+        welcome.style.zIndex = "0";
+      });
     
       setTimeout(function() {
-        welcomeScreen.style.opacity = "0";
-        welcomeScreen.style.zIndex = "0";
+        welcome.style.opacity = "0";
       }, 4000);
     </script>
   </body>
