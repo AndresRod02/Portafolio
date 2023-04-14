@@ -18,6 +18,7 @@
     <title>Andrés.R</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/69/69045.png">
+    <script src="/assets/download.js"></script>
   </head>
   <body>
     <header class="header">
@@ -56,7 +57,8 @@
             <h1 class="home__title">Soy Andrés Rodríguez. <br> Un desarrollador Front End <br> <span class="home__title2">based in Colombia.</span></h1>
             <p class="home__description _description">Soy desarrollador web, apasionado por la tecnología y la programación, estudiante activo, interesado en el Back End y la Ciencia de Datos. </p>
             <div class="home__buttons">
-              <button class="btn btn--primary" type="button">Descarga CV</button>
+              <a id="download-link" href="/assets/img/Andres Rodriguez CV.pdf" download hidden></a>
+              <button class="btn btn--primary" type="button" id="download-btn">Descarga CV</button>
             </div>
           </div>
         </div>
@@ -108,7 +110,7 @@
       <!-- TAGS -->
       <section class="grid--container tags section">
       <div data-aos="flip-left" class="about__tags">
-        <h2 class="section__title about__tags-title">Características</h2>
+        <h2 class="section__title about__tags-title">Soft Skills</h2>
         <div class="about__tags-container">
           <span data-aos="zoom-in-down" data-aos-duration="1100" class="about__tag"><i class='bx bxs-star'></i>Responsable</span>
           <span data-aos="zoom-in-down" data-aos-duration="1100" class="about__tag"><i class='bx bxs-star'></i>Trabajo en Equipo</span>
@@ -244,8 +246,8 @@
               <div class="contact__info-item">
                 <i class='bx bx-envelope' ></i>
                 <span class="contact__info-mail">
-                  <a id="mail" href="mailto:artdavid2022@gmail.com"> 
-                  artdavid2022@gmail.com</a>
+                  <a id="mail" href="mailto:andresdrtorres@gmail.com"> 
+                  andresdrtorres@gmail.com</a>
                 </span>
               </div>
               <div class="contact__info-item">

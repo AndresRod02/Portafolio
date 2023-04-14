@@ -124,7 +124,7 @@ img {
   transform: translateY(-4px);
 }
 .btn:active {
-  opacity: 0;
+  opacity: 0.2;
 }
 ::-webkit-scrollbar-track{
   background-color: transparent;
