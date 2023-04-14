@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/69/69045.png">
   </head>
-  <div id="welcome" class="welcome"><img src="./assets/img/Vídeo sin título ‐ Hecho con Clipchamp.gif" alt=""></div>
   <body>
     <header class="header">
       <nav class="navbar grid--container">
@@ -76,19 +75,31 @@
               <div data-aos="flip-down" data-aos-duration="700" class="about__card">
                 <i class='bx bxl-html5' ></i>
                 <h3 class="about__card-title">HTML5</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, voluptatibus?</p>
+                <p>HTML es un lenguaje de marcado utilizado para crear páginas web.</p>
               </div>
               <!-- Card 2 -->
               <div data-aos="flip-down" data-aos-duration="900" class="about__card">
                 <i class='bx bxl-css3' ></i>
                 <h3 class="about__card-title">CSS3</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, voluptatibus?</p>
+                <p>CSS es un lenguaje utilizado para dar estilo a las páginas web.</p>
               </div>
               <!-- Card 3 -->
               <div data-aos="flip-down" data-aos-duration="1100" class="about__card">
                 <i class='bx bxl-javascript' ></i>
                 <h3 class="about__card-title">JavaScript</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, voluptatibus?</p>
+                <p>JavaScript es un lenguaje de programación utilizado para crear interactividad en páginas web.</p>
+              </div>
+              <!-- Card 4 -->
+              <div data-aos="flip-down" data-aos-duration="1100" class="about__card">
+                <i class='bx bxl-react'></i>
+                <h3 class="about__card-title">React</h3>
+                <p>React es una biblioteca que mezcla HTML con JavaScript para construir interfaces de usuario.</p>
+            </div>
+            <!-- Card 5 -->
+              <div data-aos="flip-down" data-aos-duration="1100" class="about__card">
+                <i class='bx bxl-bootstrap'></i>
+                <h3 class="about__card-title">Bootstrap</h3>
+                <p>Bootstrap es una librería de diseño web que integra HTML, CSS y JavaScript.</p>
             </div>
             </div>
           </div>
@@ -107,38 +118,38 @@
           <span data-aos="zoom-in-down" data-aos-duration="1100" class="about__tag"><i class='bx bxs-star'></i>Autodidacta</span>
         </div>
       </div>
-      </section>
-      <section id="projects" class="projects section">
-        <h2 data-aos="fade-right" class="section__title projects__title">Proyectos</h2>
-        <div class="projects__container grid--container">
-          <!-- Proyecto 1  -->
+    </section>
+    <section id="projects" class="projects section">
+      <h2 data-aos="fade-right" class="section__title projects__title">Proyectos</h2>
+      <div class="projects__container grid--container">
+        <!-- Proyecto 1 -->
+        <div data-aos="flip-right" data-aos-duration="1000" class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__info">
+              <div class="projects__image">
+                <img src="assets/img/pokedex.png" alt="project4">
+              </div>
+              <h3 class="projects__name">Pokedex</h3>
+              <p class="projects__description">Proyecto hecho con React, se usan rutas protegidas y estados globales (Slices)</p>
+              <div class="projects__buttons">
+                <a href="https://cozy-starburst-4022be.netlify.app/#/" target="_blank" class="btn projects__button">VER DEMO</a>
+                <a href="https://github.com/AndresRod02/react/tree/Pokedex" class="btn projects__button" target="_blank">VER CÓDIGO</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2  -->
           <div data-aos="flip-left" class="projects__project">
             <div class="projects__inner grid--container">
               <div class="projects__info">
                 <div class="projects__image">
-                  <img src="assets/img/project1.jpg" alt="project1">
+                  <img src="assets/img/cookies.png" alt="project1">
                 </div>
-                <h3 class="projects__name">Proyecto 1</h3>
-                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h3 class="projects__name">Galletas de la fortuna</h3>
+                <p class="projects__description">Hecho con la tecnología de React, se consume un JSON local para obtener las frases y el autor de las mismas.</p>
                 <div class="projects__buttons">
-                  <button class="btn projects__button" type="button">VER DEMO</button>
-                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Proyecto 2  -->
-          <div data-aos="flip-right" data-aos-duration="1000" class="projects__project">
-            <div class="projects__inner grid--container">
-              <div class="projects__info">
-                <div class="projects__image">
-                  <img src="assets/img/project2.png" alt="project2">
-                </div>
-                <h3 class="projects__name">Proyecto 2</h3>
-                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                <div class="projects__buttons">
-                  <button class="btn projects__button" type="button">VER DEMO</button>
-                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                  <a href="https://fortunecookiies.netlify.app/" target="_blank" class="btn projects__button">VER DEMO</a>
+                  <a href="https://github.com/AndresRod02/fortune" target="_blank" class="btn projects__button">VER CÓDIGO</a>
                 </div>
               </div>
             </div>
@@ -148,13 +159,13 @@
             <div class="projects__inner grid--container">
               <div class="projects__info">
                 <div class="projects__image">
-                  <img src="assets/img/project3.jpg" alt="project3">
+                  <img src="assets/img/RickYMorty.png" alt="project3">
                 </div>
-                <h3 class="projects__name">Proyecto 3</h3>
-                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h3 class="projects__name">Buscador dimensional Rick & Morty</h3>
+                <p class="projects__description">Proyecto hecho bajo React, se consume la API de Rick & Morty para traer dimensiones y personajes que son listados automáticamente, la página muestra una ubicación aleatoria al abrirse, cuenta con un buscador para ir a una dimensión específica.</p>
                 <div class="projects__buttons">
-                  <button class="btn projects__button" type="button">VER DEMO</button>
-                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                  <a href="https://boisterous-bonbon-7707f5.netlify.app/" target="_blank" class="btn projects__button">VER DEMO</a>
+                  <a href="https://github.com/AndresRod02/react/tree/RickYMorty" class="btn projects__button" target="_blank">VER CÓDIGO</a>
                 </div>
               </div>
             </div>
@@ -164,13 +175,45 @@
             <div class="projects__inner grid--container">
               <div class="projects__info">
                 <div class="projects__image">
-                  <img src="assets/img/project4.png" alt="project4">
+                  <img src="assets/img/weather.png" alt="project2">
                 </div>
-                <h3 class="projects__name">Proyecto 4</h3>
-                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h3 class="projects__name">App Weather</h3>
+                <p class="projects__description">En este proyecto hecho bajo React se consume la API de OpenWeather para obtener los datos del clima, la página puede conseguir la ubicación precisa del usuario que hace uso de ella, cuenta también con un modo oscuro y un loader de inicio.</p>
                 <div class="projects__buttons">
-                  <button class="btn projects__button" type="button">VER DEMO</button>
-                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                  <a href="https://brilliant-taffy-bf8bdd.netlify.app/" target="_blank" class="btn projects__button">VER DEMO</a>
+                  <a href="https://github.com/AndresRod02/weather" class="btn projects__button" target="_blank">VER CÓDIGO</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div data-aos="flip-right" data-aos-duration="1000" class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__info">
+                <div class="projects__image">
+                  <img src="assets/img/ecommerce.png" alt="project4">
+                </div>
+                <h3 class="projects__name">e-commerce</h3>
+                <p class="projects__description">Proyecto hecho con React y Bootstrap, se usan rutas protegidas, estados globales y peticiones a la API tipo CRUD (Create, Read, Update and Delete)</p>
+                <div class="projects__buttons">
+                  <a href="https://symphonious-babka-9c556e.netlify.app/" target="_blank" class="btn projects__button">VER DEMO</a>
+                  <a href="https://github.com/AndresRod02/ecommerce" class="btn projects__button" target="_blank">VER CÓDIGO</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6  -->
+          <div data-aos="flip-right" data-aos-duration="1000" class="projects__project">
+            <div class="projects__inner grid--container">
+              <div class="projects__info">
+                <div class="projects__image">
+                  <img src="assets/img/instant.png" alt="project4">
+                </div>
+                <h3 class="projects__name">Instant e-commerce</h3>
+                <p class="projects__description">Proyecto hecho con JavaScript Vanilla, HTML y CSS, cuenta con un carrito de compras, un modo oscuro, y un filtro para buscar por categorías de productos.</p>
+                <div class="projects__buttons">
+                  <a href="https://instanth.netlify.app/" target="_blank" class="btn projects__button">VER DEMO</a>
+                  <a href="https://github.com/AndresRod02/myPortfolio" class="btn projects__button" target="_blank">VER CÓDIGO</a>
                 </div>
               </div>
             </div>
@@ -183,14 +226,13 @@
         <div class="contact__container grid--container">
           <div class="contact__info">
             <h3 data-aos="fade-right" class="contact__info-title _description">Información de Contacto</h3>
-            <p data-aos="fade-right" class="contact__info-description _description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <address  data-aos="flip-left" class="contact__info-data">
               <div class="contact__info-item">
                 <i class='bx bxl-whatsapp' ></i>
                 <span class="contact__info-number">
                   <a href="https://wa.me/+573042215803?text=Tu%20Mensaje%20De%20Texto"
                   target="_blank"> 
-                  Enviar a WhatsApp</a>
+                  Enviar WhatsApp</a>
                 </span>
               </div>
               <div class="contact__info-item">
