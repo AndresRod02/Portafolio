@@ -77,6 +77,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   margin: 0;
+  background: #000000;
+
 }
 
 ul {
@@ -320,6 +322,7 @@ img {
 /*========== Projects ======*/
 .projects__container {
   gap: 2rem;
+  background: #000000;
 }
 
 .projects__inner {
@@ -487,6 +490,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .body{
     max-width: 1440px;
+    
   }
   .section {
     padding: 0;
@@ -679,3 +683,8 @@ textarea {
   }
 }
  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000000;
+  border-radius: 50%;
+}
